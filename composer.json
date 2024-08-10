@@ -1,0 +1,19 @@
+{
+    "name": "vsev92/hexlet-php",
+    "type": "project",
+    "autoload": {
+        "files" : ["src/Runner.php"],
+        "psr-4": {
+            "Vsev92\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vsevolod Petrov",
+            "email": "vsev92@mail.ru"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^11.20"
+    }
+}
